@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/fonts.css">
-
+    <!--  favicom -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicom/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicom/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicom/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicom/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body> 
     <header class="header">
@@ -21,10 +26,10 @@
             <div class="container">
                 <ul class="menu">
                     <li class="menu_item"><a href="#" class="menu_link">Главная <i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">На своем авто</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
+                    <li class="menu_item"><a href="#require" class="menu_link">На своем авто</a></li>
+                    <li class="menu_item"><a href="#require" class="menu_link">На автомобиле компании</a></li>
+                    <li class="menu_item"><a href="#require2" class="menu_link">Требования</a></li>
+                    <li class="menu_item"><a href="#require2" class="menu_link">Контакты</a></li>
                     <li class="menu_item"><a href="#" class="menu_link">Оставить 3аявку</a></li>
                 </ul>
             </div>   
@@ -230,13 +235,13 @@
         </div>
     </section>
     
-    <section class="require">
+    <section class="require" id="require">
         <div class="container">
             <h3>Возможности</h3>
             <h4>условия и требования</h4>
             <div class="row g-0">
                <div class="col-md-6">
-                   <div class="require_block ">
+                   <div class="require_block "  >
                             <div class="require_tittle">УСЛОВИЯ: со своим авто:</div>
                             <ul class="require_list">
                                 <li>Подключаем к системе UBER  под 10%.</li>
@@ -263,7 +268,7 @@
                      </div>
                  </div> 
                  <div class="col-md-6">
-                    <div class="require_block red">
+                    <div class="require_block red " id="require2" >
                              <div class="require_tittle">ТРЕБОВАНИЕ:</div>
                              <ul class="require_list">
                                  <li>Подключаем к системе UBER  под 10%.</li>
