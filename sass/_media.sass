@@ -1,0 +1,262 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    h1
+        font-size: 50px
+    .reasons_block
+        align-items: flex-start
+    .content
+        width: 300px
+    .mobile
+        &_item
+            width: 300px
+@media ( max-width: 991px )
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    h1
+        font-size: 40px
+    h2
+        font-size: 30px
+    .reasons_block
+        align-items: flex-start
+        flex-direction: column
+        align-items: center
+    .content
+        margin-top: 20px
+    .content
+        width: 200px
+    .mobile
+        &_item
+            width: 250px
+    .btn_head
+        width: 100%
+        font-size: 11px
+
+@media (max-width:767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.8s all
+        &_active
+            left: 0
+
+        &_item
+            margin-top: 20px
+            padding-right: 0
+            border: none
+        &_link
+            font-size: 20px
+    .car_img
+        max-width: 100%
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 20px
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .number
+        display: block
+        margin-top: 10px
+        font-size: 18px
+        color: #ffffff
+        text-align: center
+    .btn_head
+        margin-top: 10px
+        width: 200px
+        height: 40px
+        margin: 0 auto
+    h1
+        font-size: 30px
+        line-height: 25px
+        padding: 0 24px
+    h2
+        margin-top: 10px
+        font-size: 20px
+        line-height: 23px
+        padding: 0px 12px
+    .content
+        width: 300px
+    .circle
+        margin-right: 0px
+@media screen and (max-width:575px)
+
+    .header_foot
+        height: 60px
+    .text_logo
+        display: none
+    .logo
+        margin-top: 22px
+    .number
+        display: block
+        margin-top: 10px
+        font-size: 12px
+        margin-top: 11px
+        color: #ffffff
+        text-align: center
+    .btn_head
+        margin-top: 10px
+        width: 110px
+        height: 22px
+        font-size: 10px
+        line-height: 15px
+        margin: 0 auto
+    .text_first
+        display: none
+    .section
+        min-height: 335px
+        padding: 41px 0 0px
+    .headerBtn
+        margin: 72px auto 34px
+
+    h4
+        margin-top: 18px
+        font-size: 16px
+        line-height: 16px
+    .content
+        margin-top: 24px
+    .container
+        width: 290px
+    .car_bgblack
+        width: 100%
+    .mobile
+        &_item
+            width: 360px
+            height: 254px
+    .car
+        &_img
+            display: block
+            position: absolute
+            top: 140px
+            left: 50%
+            transform: translateX(-50%)
+    .car_bgwhite .subtitle2
+        position: absolute
+        left: 80px
+        top: 460px
+        margin-top: -20px
+        color: #ffffff
+        z-index: 1
+    .car
+        height: 300px
+    h3
+
+    .car
+        &_bgblack
+            padding-top: 10px
+    .require
+        margin-top: 225px
+    .endmap
+        height: 360px
+    .endmap h4
+        font-size: 20px
+    .footers
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+    .endmap
+        height: 320px
+        &_content
+            &_text
+                a
+                    margin-top: 100px
+    .footers
+        margin-top: 50px
+        display: flex
+        height: 182px
+        flex-direction: column-reverse
+        &_content
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            height: 100%
+            &_1
+                display: flex
+                padding: 17px 0px 0px 30px
+
+                &_circle
+                    position: relative
+                    margin-right: 7px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 34px
+                    height: 34px
+                    border-radius: 100%
+                    background-color: #000
+                    text-decoration-line: none
+
+            &_2
+                order: 3
+                width: 100%
+                .line
+                    margin: 17px 0px 0px -50px
+                    width: 242px
+                    height: 4px
+                    background: #1FBAD6
+
+                .container_text
+                    height: 50px
+                    margin-top: 17px
+                    display: flex
+                    justify-content: space-around
+                .text1
+                    margin-left: 15px
+                    font-weight: 300
+                    font-size: 15px
+                    text-transform: uppercase
+                    color: #070716
+
+                .text2
+                    margin-left: 10px
+                    display: block
+                    font-weight: 300
+                    font-size: 11px
+                    text-transform: uppercase
+                    color: #999999
+                .lang
+                    font-size: 11px
+                    text-transform: uppercase
+                    color: #1FBAD6
+            &_3
+                margin-top: 700px
+                padding-right: 10px
+                width: 270px
+                display: flex
+                justify-content: center
