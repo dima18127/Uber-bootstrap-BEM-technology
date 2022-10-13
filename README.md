@@ -1,4 +1,4 @@
 # Адаптивная верстка с использованием grid,Bootstrap.
-## __________________
-### easy
+## sass/scss media mixins
+### js burger
 
